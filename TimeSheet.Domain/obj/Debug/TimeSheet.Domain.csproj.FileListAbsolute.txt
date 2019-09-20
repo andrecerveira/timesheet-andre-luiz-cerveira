@@ -1,0 +1,6 @@
+C:\dev\AdverHouse\TimeSheet\TimeSheet.Domain\bin\Debug\TimeSheet.Domain.dll
+C:\dev\AdverHouse\TimeSheet\TimeSheet.Domain\bin\Debug\TimeSheet.Domain.pdb
+C:\dev\AdverHouse\TimeSheet\TimeSheet.Domain\obj\Debug\TimeSheet.Domain.csproj.CoreCompileInputs.cache
+C:\dev\AdverHouse\TimeSheet\TimeSheet.Domain\obj\Debug\TimeSheet.Domain.dll
+C:\dev\AdverHouse\TimeSheet\TimeSheet.Domain\obj\Debug\TimeSheet.Domain.pdb
+C:\dev\AdverHouse\TimeSheet\TimeSheet.Domain\obj\Debug\TimeSheet.Domain.csprojAssemblyReference.cache

@@ -1,0 +1,32 @@
+﻿@model IEnumerable<TimeSheet.Domain.Entities.Cliente>
+
+@{
+    ViewBag.Title = "Clientes";
+}
+
+    <h2>Clientes</h2>
+
+<p>
+    @Html.ActionLink("Criar Novo", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nome)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nome)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Edit", new { id=item.ClienteId }) |
+            @Html.ActionLink("Excluir", "Delete", new { id=item.ClienteId }, new { onclick = "return confirm('Tem certeza que deseja excluir este item?')"})
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,29 @@
+USE [AdverHouseTimeSheet]
+GO
+
+/****** Object:  Table [dbo].[Job]    Script Date: 19/09/2019 14:23:43 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Job](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Nome] [nvarchar](50) NOT NULL,
+	[idCampanha] [int] NOT NULL,
+ CONSTRAINT [PK__Table__3214EC07FA00595E] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[Job]  WITH CHECK ADD  CONSTRAINT [FK_Job_Campanha] FOREIGN KEY([idCampanha])
+REFERENCES [dbo].[Campanha] ([Id])
+GO
+
+ALTER TABLE [dbo].[Job] CHECK CONSTRAINT [FK_Job_Campanha]
+GO
+
+

@@ -1,0 +1,9 @@
+C:\dev\AdverHouse\TimeSheet\TimeSheet.Infra.Data\bin\Debug\TimeSheet.Infra.Data.dll
+C:\dev\AdverHouse\TimeSheet\TimeSheet.Infra.Data\bin\Debug\TimeSheet.Infra.Data.pdb
+C:\dev\AdverHouse\TimeSheet\TimeSheet.Infra.Data\obj\Debug\TimeSheet.Infra.Data.csprojAssemblyReference.cache
+C:\dev\AdverHouse\TimeSheet\TimeSheet.Infra.Data\obj\Debug\TimeSheet.Infra.Data.csproj.CoreCompileInputs.cache
+C:\dev\AdverHouse\TimeSheet\TimeSheet.Infra.Data\obj\Debug\TimeSheet.Infra.Data.dll
+C:\dev\AdverHouse\TimeSheet\TimeSheet.Infra.Data\obj\Debug\TimeSheet.Infra.Data.pdb
+C:\dev\AdverHouse\TimeSheet\TimeSheet.Infra.Data\bin\Debug\TimeSheet.Domain.dll
+C:\dev\AdverHouse\TimeSheet\TimeSheet.Infra.Data\bin\Debug\TimeSheet.Domain.pdb
+C:\dev\AdverHouse\TimeSheet\TimeSheet.Infra.Data\obj\Debug\TimeSheet.Infra.Data.csproj.CopyComplete
